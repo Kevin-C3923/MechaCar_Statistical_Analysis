@@ -22,8 +22,20 @@ When examining the summary it can be determine that Lot 3 contains a greater var
 
 ## T-Tests on Suspension Coils
 
+### All Lots
+![](https://github.com/Kevin-C3923/MechaCar_Statistical_Analysis/blob/main/Images/all_lot_test.png)
+
+### Lot 1
+![](https://github.com/Kevin-C3923/MechaCar_Statistical_Analysis/blob/main/Images/lot_1_test.png)
+
+### Lot 2
+![](https://github.com/Kevin-C3923/MechaCar_Statistical_Analysis/blob/main/Images/lot_2_test.png)
+
+### Lot 3
+![](https://github.com/Kevin-C3923/MechaCar_Statistical_Analysis/blob/main/Images/lot_3_test.png)
+
 
 
 ## Study Design: MechaCar vs Competition
 
-
+When doing the study design on what would interest a consumer it would likely be a variety of different features. The one that would be most desirable would be miles per gallon, horse power, and the cost. Therefor, we can make a test with the MechaCar to see the difference to other competitors. Our null hypothesis would be that both the MechaCar and the other competition have no differences from one another. To be able to do this we would collect the data of other competitors vehicle and use that data to compare it with out t-test to see how the MechaCar compares to other vehicles.
