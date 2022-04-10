@@ -27,18 +27,16 @@ lot_summary <- Suspension_Coil_fs %>% group_by(Manufacturing_Lot) %>% summarize(
 # T-Tests on Suspension Coils
 
 # All Lot
-t.test(log10(Suspension_Coil_fs$PSI),mu=mean(log10(total_summary$Mean)) )
-
-# t.test(log10(Suspension_Coil_fs$PSI),mu=mean(log10(1500)) )
+t.test(Suspension_Coil_fs$PSI,mu=1500)
 
 # Lot 1
-t.test(log10(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot1')$PSI),mu=mean(log10(total_summary$Mean)) )
+t.test(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot1')$PSI,mu=1500)
 
 # Lot 2
-t.test(log10(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot2')$PSI),mu=mean(log10(total_summary$Mean)) )
+t.test(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot2')$PSI,mu=1500)
 
 # Lot 3
-t.test(log10(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot3')$PSI),mu=mean(log10(total_summary$Mean)) )
+t.test(subset(Suspension_Coil_fs,Manufacturing_Lot=='Lot3')$PSI,mu=1500)
 
 
 
